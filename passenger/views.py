@@ -47,3 +47,15 @@ def pprofile(request):
 def pdestination(request):
     return render(request, 'passenger/destination.html')
 
+#################################################################################################################################################################################
+#VIEW FUNCTION FOR  PASSENGER'S  CONTACT-PAGE
+#################################################################################################################################################################################
+
+#PASSENGER'S  DESTINATION-PAGE view function
+
+'''
+ This page gives passenger contact info
+'''
+def pcontact(request):
+    return render(request, 'passenger/contact.html')
+
