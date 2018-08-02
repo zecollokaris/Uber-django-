@@ -5,3 +5,9 @@ from django.conf.urls.static import static
 '''End Of Import'''
 #---------------------------------------------------------------------#
 
+
+urlpatterns=[
+
+
+
+]
