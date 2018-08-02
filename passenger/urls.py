@@ -45,5 +45,13 @@ urlpatterns=[
     
     path('passenger/destination',views.pdestination, name = 'passenger pick destination page'),
 
+#################################################################################################################################################################################
+#URL FOR   PASSENGER'S  CONTACT-PAGE
+#################################################################################################################################################################################
+
+    #PASSENGER'S  CONTACT-PAGE!
+       
+    path('passenger/contact',views.pcontact, name = 'passenger contact-info page'),
+
 
 ]
