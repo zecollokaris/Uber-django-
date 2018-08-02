@@ -15,3 +15,11 @@ from django.http import HttpResponse
 def landing(request):
     return render(request, 'landingpage/land-page.html')
 
+#################################################################################################################################################################################
+#VIEW FUNCTION FOR  PASSENGER'S HOME-PAGE
+#################################################################################################################################################################################
+
+#Passenger's HOME-PAGE view function
+def passenger(request):
+    return render(request, 'passenger/home.html')
+
