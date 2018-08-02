@@ -54,5 +54,13 @@ urlpatterns=[
     
     url(r'^driver/profile',views.dprofile, name = 'driver profile page'),
 
+#################################################################################################################################################################################
+#URL FOR   DRIVER'S  DESTINATION-PAGE
+#################################################################################################################################################################################
+
+    #DRIVER'S  DESTINATION Page url!
+    
+    url(r'^driver/destination',views.ddestination, name = 'driver pick destination page'),
+
 
 ]
