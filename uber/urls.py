@@ -26,5 +26,15 @@ urlpatterns=[
     url(r'^accounts/', include('registration.backends.simple.urls')),
     
 
+#################################################################################################################################################################################
+#URL FOR  LANDING-PAGE
+#################################################################################################################################################################################
+
+    #LANDING Page url!
+    
+    #This is the landing-page url pattern having the ( ^ )-sign at the start means nothing comes before the defined url which will make it the index page##
+    
+    url(r'^driver/home',views.landing, name = 'landing'),
+
 
 ]
