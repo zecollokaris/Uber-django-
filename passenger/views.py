@@ -23,3 +23,15 @@ def landing(request):
 def passenger(request):
     return render(request, 'passenger/home.html')
 
+#################################################################################################################################################################################
+#VIEW FUNCTION FOR  PASSENGER'S PROFILE-PAGE
+#################################################################################################################################################################################
+
+#PASSENGER'S PROFILE-PAGE view function
+
+'''
+ This page contains passengers info eg Name, Bio and useful information about driver
+'''
+def pprofile(request):
+    return render(request, 'passenger/profile.html')
+
