@@ -37,5 +37,13 @@ urlpatterns=[
     
     path('passenger/profile',views.pprofile, name = 'passenger profile page'),
 
+#################################################################################################################################################################################
+#URL FOR   PASSENGER'S  DESTINATION-PAGE
+#################################################################################################################################################################################
+
+    #PASSENGER'S DESTINATION Page url!
+    
+    path('passenger/destination',views.pdestination, name = 'passenger pick destination page'),
+
 
 ]
