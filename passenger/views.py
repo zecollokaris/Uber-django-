@@ -35,3 +35,15 @@ def passenger(request):
 def pprofile(request):
     return render(request, 'passenger/profile.html')
 
+#################################################################################################################################################################################
+#VIEW FUNCTION FOR  PASSENGER'S  DESTINATION-PAGE
+#################################################################################################################################################################################
+
+#PASSENGER'S  DESTINATION-PAGE view function
+
+'''
+ This page enables passenger pick a destination point where they can be droped off
+'''
+def pdestination(request):
+    return render(request, 'passenger/destination.html')
+
