@@ -71,3 +71,15 @@ class Location (models.Model):
     location_name = models.CharField(max_length=20)
     category = models.ForeignKey('uber.Category', on_delete=models.CASCADE)
 
+#################################################################################################################################################################################
+# MODEL CATEGORY WHICH IS USED FOR ENABLING PASSENGERS KNOW IF IT IS (PICKUP/ DESTINATIONS)!
+#################################################################################################################################################################################
+
+#...Class CATEGORY added here...
+class Category (models.Model):
+#Attribute Variables for Category class to represent different columns in database
+
+    ''' 
+    pickup_location-: This is the location where user will be picked up
+    arrival_destination-: This is the destination point where the driver will drop off passengers
+    '''
