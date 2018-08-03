@@ -22,3 +22,15 @@ class Passenger(models.Model):
     avatar-: A picture of the rider
     pickup_location-: Connected to the Location class using a FOREIGN_KEY
     '''
+    name = models.OneToOneField(User, related_name='rider_profile',on_delete=models.CASCADE)
+    bio = models.CharField(max_length=60)
+    avatar = models.ImageField(upload_to='ProfilePicture/')
+    current_location = models.ForeignKey('uber.Location', related_name='current_location', on_delete=models.CASCADE, null=True)
+    pickup_location = models.ForeignKey('uber.Location',related_name='rider_pickup', on_delete=models.CASCADE)
+    contact_info = models.CharField(max_length=50)
+
+    
+    '''Method to filter database results'''
+    def __str__(self):
+        return self.user.username 
+
