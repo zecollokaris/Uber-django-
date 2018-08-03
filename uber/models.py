@@ -83,3 +83,7 @@ class Category (models.Model):
     pickup_location-: This is the location where user will be picked up
     arrival_destination-: This is the destination point where the driver will drop off passengers
     '''
+    pickup_location = models.CharField(max_length=20)
+    arrival_destination = models.CharField(max_length=20)
+
+#################################################################################################################################################################################
