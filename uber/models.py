@@ -33,3 +33,15 @@ class Driver(models.Model):
     def __str__(self):
         return self.user.username 
 
+#################################################################################################################################################################################
+# MODEL CAR WHICH IS THE DRIVER'S CAR INFO!
+#################################################################################################################################################################################
+
+#...Class CAR added here...
+class Car(models.Model):
+#Attribute Variables for Car class to represent different columns in database
+    '''
+    car_brand -: This is the car brand driven by driver for easy identification 
+    number_plate-: Vehicle registration number for more accurate identification
+    seat_number-: This are the number of seats available in drivers car
+    '''
