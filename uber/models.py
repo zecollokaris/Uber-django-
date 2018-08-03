@@ -54,3 +54,15 @@ class Car(models.Model):
     def __str__(self):
         return self.user.username 
 
+#################################################################################################################################################################################
+# MODEL LOCATION WHICH IS USED FOR DISPLAYING LOCATIONS EITHER (PICKUP/ DESTINATIONS)!
+#################################################################################################################################################################################
+
+#...Class LOCATION added here...
+class Location (models.Model):
+#Attribute Variables for Location class to represent different columns in database
+
+    ''' 
+    location_name-: This is the name of the point selected by the longitude & latitude
+    category-: This is linked to category class to enable passenger know if it is pickup location or destination
+    '''
