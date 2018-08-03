@@ -45,3 +45,12 @@ class Car(models.Model):
     number_plate-: Vehicle registration number for more accurate identification
     seat_number-: This are the number of seats available in drivers car
     '''
+    car_brand = models.CharField(max_length=50)
+    number_plate = models.CharField(max_length=20)
+    seat_number = models.CharField(max_length=20)
+
+
+    '''Method to filter database results'''
+    def __str__(self):
+        return self.user.username 
+
