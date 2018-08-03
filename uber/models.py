@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+#Import User method for django
+from django.contrib.auth.models import User
+'''End Of Import'''
+#---------------------------------------------------------------------#
+
+
