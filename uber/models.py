@@ -66,3 +66,8 @@ class Location (models.Model):
     location_name-: This is the name of the point selected by the longitude & latitude
     category-: This is linked to category class to enable passenger know if it is pickup location or destination
     '''
+    longitude = models.CharField(max_length=10)
+    latitude = models.CharField(max_length=10)
+    location_name = models.CharField(max_length=20)
+    category = models.ForeignKey('uber.Category', on_delete=models.CASCADE)
+
