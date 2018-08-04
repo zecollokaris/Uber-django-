@@ -1,0 +1,41 @@
+{% load bootstrap3 %} 
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- ULKIT CSS -->
+    <link href="ulkit/css/uikit.min.css" rel="stylesheet">
+
+    <!-- ULKIT JS -->
+    <script type="text/javascript" href="ulkit/js/uikit.min.js"></script>
+    <script type="text/javascript" href="ulkit/js/uikit-icons.min.js"></script>
+    
+    <!-- STYLING CSS LINKED HERE -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+    <!-- JAVASCRIPT LINKS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="{% static 'js/navbar.js' %}"></script>
+
+
+    <title> Uber</title>
+    {% block styles%} 
+    {% bootstrap_css %} 
+    {% endblock %}
+</head>
+
+<body>
+
+        {% block content %} 
+        
+        {% endblock %}
+
+
+</body>
+
+</html>

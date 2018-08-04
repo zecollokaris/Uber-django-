@@ -1,0 +1,22 @@
+{% extends 'driver/nav-base.html' %}
+{% load static from staticfiles %}
+{% load bootstrap3 %} 
+{% block content %}
+
+<div class="wrapper">
+
+    <nav>
+        <div class="logo"><img src="../../static/css/images/uber.png" style="margin-top: -20%; height: 80px;width: 80px;" alt="uber logo"></div>
+        <ul>
+            <li><a href="/driver/profile">HOME</a></li>
+            <li><a href="/driver/contact">Contact</a></li>
+            <li><a href="/about">About</a></li>
+            <li class="activate"><a href="/driver/home">LOGOUT</a></li>
+            
+        </ul>
+    </nav>
+
+
+</div>
+
+{% endblock %}
