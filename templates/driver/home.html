@@ -1,0 +1,48 @@
+{% load bootstrap3 %} {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- STYLING CSS LINKED HERE -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+    <!-- ULKIT CSS -->
+    <link href="{% static 'ulkit/css/uikit.min.css' %}" rel="stylesheet">
+
+    <!-- ULKIT JS -->
+    <script type="text/javascript" src="{% static 'ulkit/js/uikit.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'ulkit/js/uikit-icons.min.js' %}"></script>
+
+
+
+    <title> Uber</title>
+    {% block styles%} {% bootstrap_css %} {% endblock %}
+</head>
+
+<body>
+
+<div class"container">
+    <div class="homeheaderbody">
+
+        <div class="homeheader">
+
+            <h1>Welcome!</h1>
+
+        </div>
+                
+        <!-- Buttons -->
+        <div class="driverbtn"><a href="/accounts/login/"><p style="color: white"> LOGIN! </p></a></div>
+
+        <div class="passengerbtn"><a href="/accounts/register/"><p style="color: white;"> SIGNUP! </p></a></div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
