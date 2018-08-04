@@ -1,4 +1,4 @@
-from django.conf.urls import url, include
+from django.urls import path
 from . import views
 from django.conf import settings
 from django.conf.urls.static import static
@@ -34,7 +34,7 @@ urlpatterns=[
     
     #This is the landing-page url pattern having the ( ^ )-sign at the start means nothing comes before the defined url which will make it the index page##
     
-    url(r'^driver/home',views.landing, name = 'landing'),
+    path('driver/home',views.landing, name = 'landing'),
 
 #################################################################################################################################################################################
 #URL FOR  DRIVER'S HOME-PAGE
@@ -44,7 +44,7 @@ urlpatterns=[
     
     #This is the home-page url for driver
     
-    url(r'^$',views.driver, name = 'drivers home page'),
+    path('^$',views.driver, name = 'drivers home page'),
 
 #################################################################################################################################################################################
 #URL FOR   DRIVER'S PROFILE-PAGE
@@ -52,7 +52,7 @@ urlpatterns=[
 
     #DRIVER'S PROFILE-PAGE url!
     
-    url(r'^driver/profile',views.dprofile, name = 'driver profile page'),
+    path('driver/profile',views.dprofile, name = 'driver profile page'),
 
 #################################################################################################################################################################################
 #URL FOR   DRIVER'S  DESTINATION-PAGE
@@ -60,7 +60,7 @@ urlpatterns=[
 
     #DRIVER'S  DESTINATION Page url!
     
-    url(r'^driver/destination',views.ddestination, name = 'driver pick destination page'),
+    path('driver/destination',views.ddestination, name = 'driver pick destination page'),
 
 #################################################################################################################################################################################
 #URL FOR   DRIVER'S  CONTACT-PAGE
@@ -68,7 +68,7 @@ urlpatterns=[
 
     #DRIVER'S  CONTACT-PAGE!
        
-    url(r'^driver/contact',views.dcontact, name = 'driver contact-info page'),
+    path('driver/contact',views.dcontact, name = 'driver contact-info page'),
 
 #################################################################################################################################################################################
 #URL FOR ABOUT-PAGE
@@ -76,7 +76,7 @@ urlpatterns=[
 
     #ABOUT-PAGE url!
     
-    url(r'^about',views.about, name = 'about page for app'),
+    path('about',views.about, name = 'about page for app'),
 
 #################################################################################################################################################################################
 
