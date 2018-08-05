@@ -19,3 +19,12 @@ from django.conf.urls import url,include
 def login(request):
     return render(request, "registration/registration_form.html")
     
+#################################################################################################################################################################################
+#LOGIN PAGE VIEW FUNCTION
+#################################################################################################################################################################################
+
+#LOGOUT Page View Function!
+def logout(request):
+    return render(request, 'registration/registration_form.html')
+
+    
