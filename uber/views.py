@@ -86,3 +86,15 @@ def dprofile(request):
 def ddestination(request):
     return render(request, 'driver/destination.html')
 
+#################################################################################################################################################################################
+#VIEW FUNCTION FOR  DRIVER'S  CONTACT-PAGE
+#################################################################################################################################################################################
+
+#DRIVER'S  DESTINATION-PAGE view function
+
+'''
+ This page gives driver contact info
+'''
+def dcontact(request):
+    return render(request, 'driver/contact.html')
+
