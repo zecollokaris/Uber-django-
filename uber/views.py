@@ -62,3 +62,15 @@ def dregistration(request):
 def driver(request):
     return render(request, 'driver/home.html')
 
+#################################################################################################################################################################################
+#VIEW FUNCTION FOR  DRIVER'S PROFILE-PAGE
+#################################################################################################################################################################################
+
+#Driver's PROFILE-PAGE view function
+
+'''
+ This page contains drivers info eg Name, Bio and useful information about driver
+'''
+def dprofile(request):
+    return render(request, 'driver/profile.html')
+
