@@ -17,7 +17,7 @@ urlpatterns=[
     
     #This is the landing-page url pattern having the ( ^ )-sign at the start means nothing comes before the defined url which will make it the index page##
     
-    path('^$',views.landing,name = 'landing'),
+    path('',views.landing,name = 'landing'),
 
 #################################################################################################################################################################################
 #URL FOR  PASSENGER'S HOME-PAGE

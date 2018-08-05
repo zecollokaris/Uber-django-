@@ -44,7 +44,7 @@ urlpatterns=[
     
     #This is the home-page url for driver
     
-    path('^$',views.driver, name = 'drivers home page'),
+    path('',views.driver, name = 'drivers home page'),
 
 #################################################################################################################################################################################
 #URL FOR   DRIVER'S PROFILE-PAGE
