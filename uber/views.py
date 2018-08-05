@@ -74,3 +74,15 @@ def driver(request):
 def dprofile(request):
     return render(request, 'driver/profile.html')
 
+#################################################################################################################################################################################
+#VIEW FUNCTION FOR  DRIVER'S  DESTINATION-PAGE
+#################################################################################################################################################################################
+
+#DRIVER'S  DESTINATION-PAGE view function
+
+'''
+ This page enables driver choose a destination point where they can drop off users and get other destination points
+'''
+def ddestination(request):
+    return render(request, 'driver/destination.html')
+
