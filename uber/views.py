@@ -44,3 +44,12 @@ def landing(request):
     return render(request, 'landingpage/land-page.html')
     
 
+#################################################################################################################################################################################
+#REGISTRATION PAGE VIEW FUNCTION
+#################################################################################################################################################################################
+
+#REGISTRATION Page View Function!
+def dregistration(request):
+    return render(request, 'landingpage/land-page.html')
+    
+
