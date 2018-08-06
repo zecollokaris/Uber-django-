@@ -4,4 +4,5 @@ django-bootstrap3==10.0.1
 django-registration==2.4.1
 Pillow==5.2.0
 pkg-resources==0.0.0
+psycopg2==2.7.5
 pytz==2018.5
