@@ -1,11 +1,28 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+
+from django.conf import settings
 
 from django.http import HttpResponse
+
+from django.conf.urls.static import static
+
+from . import models
+
+from django.contrib.auth.models import User
+
+from django.contrib.auth import authenticate, login, logout
+
+from django.contrib.auth.decorators import login_required
+'''
+The @login_required declarator limits access of view function to only 
+authenticated users
+'''
+#---------------------------------------------------------------------#
 '''End Of Import'''
 #---------------------------------------------------------------------#
 
-
 # VIEW FUNCTIONS HERE!
+
 
 #################################################################################################################################################################################
 #LANDING PAGE VIEW FUNCTION
@@ -15,13 +32,6 @@ from django.http import HttpResponse
 def landing(request):
     return render(request, 'landingpage/land-page.html')
 
-#################################################################################################################################################################################
-#VIEW FUNCTION FOR  PASSENGER'S HOME-PAGE
-#################################################################################################################################################################################
-
-#Passenger's HOME-PAGE view function
-def passenger(request):
-    return render(request, 'passenger/home.html')
 
 #################################################################################################################################################################################
 #VIEW FUNCTION FOR  PASSENGER'S PROFILE-PAGE
@@ -32,6 +42,7 @@ def passenger(request):
 '''
  This page contains passengers info eg Name, Bio and useful information about driver
 '''
+@login_required(login_url='/accounts/login/')
 def pprofile(request):
     return render(request, 'passenger/profile.html')
 
@@ -44,6 +55,7 @@ def pprofile(request):
 '''
  This page enables passenger pick a destination point where they can be droped off
 '''
+@login_required(login_url='/accounts/login/')
 def pdestination(request):
     return render(request, 'passenger/destination.html')
 
@@ -56,6 +68,7 @@ def pdestination(request):
 '''
  This page gives passenger contact info
 '''
+@login_required(login_url='/accounts/login/')
 def pcontact(request):
     return render(request, 'passenger/contact.html')
 
@@ -68,7 +81,17 @@ def pcontact(request):
 '''
  This page basically explains what the app is about
 '''
+@login_required(login_url='/accounts/login/')
 def about(request):
     return render(request, 'uber/about.html')
+
+#################################################################################################################################################################################
+#LOGIN PAGE VIEW FUNCTION
+#################################################################################################################################################################################
+
+#Login page view function
+@login_required(login_url='/accounts/login/')
+def login(request):
+    return render(request, 'registration/login.html')
 
 #################################################################################################################################################################################

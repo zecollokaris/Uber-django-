@@ -17,7 +17,10 @@ as done below this is to avoid filling up all our urls in this page'''
 
 
 urlpatterns = [
+    #url for registration
+    path('accounts/', include('registration.backends.simple.urls')),
+
     path('admin/', admin.site.urls),
     path('', include('passenger.urls')),
-    path('',include('uber.urls')),
+    path('', include('uber.urls')),   
 ]
