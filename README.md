@@ -79,3 +79,13 @@ Collins Kariuki
 
 #{follow the above instructions for set up}
 
+#Technologies Used
+
+-HTML5
+-CSS
+-Bootstarap
+-Python3.6
+-Django 2.0.7
+-Psycopg2
+-PostgreSQL
+
