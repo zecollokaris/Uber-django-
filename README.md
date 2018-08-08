@@ -1,13 +1,10 @@
 
 
-#                                                    INSTAGRAM.
+#                                                       UBER.
 
 
 #                                                  WEBSITE DISPLAY.
 # Website Layout
-
-
-## This is to Show the page is responsive and to also show the layout design
 
 
 ## - Full Screen layout
@@ -32,4 +29,12 @@
 
 
 
+
+#  PROJECT DESCRIPTION
+
+##  This is a clone to the uber app. Its an app where a people can car pool together if going to similar or close direction
+
+
+## Author
+Collins Kariuki
 
