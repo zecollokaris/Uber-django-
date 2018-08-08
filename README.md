@@ -109,19 +109,30 @@ Collins Kariuki
 #Technologies Used
 
 -HTML5
+
 -CSS
+
+-JAVASCRIPT(hiding and revealing navbar on scroll)
+
 -Bootstarap
+
 -Python3.6
--Django 2.0.7
+
+-Django 2.0.7(latest version 2018)
+
 -Psycopg2
+
 -PostgreSQL
 
 #Contact
 
 -Mobile number: (+254) 798731203
+
 -Email Address: collo.kariss@gmail.com
+
 -github-username: zecollokaris
 
 ## License
 The app is licensed by MIT.
+
 Collins Kariuki - MIT (c)2018 LICENSE
