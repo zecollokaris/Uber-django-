@@ -51,5 +51,31 @@ Collins Kariuki
 
 -Bootstrap3. Installation ($ pip install django-bootstrap3).
 
--Pillow. Installation ($ pip install pillow)
+-Pillow. Installation ($ pip install pillow).
+
+# Setup/Installation Requirements
+
+-Internet connection
+
+-webpage URL:
+
+-To get to this webpage fist you need to get to my github repository
+
+-The link to my github Repository is: https://github.com/zecollokaris
+
+-from there you can access the project
+
+-git clone project
+
+-install dependancies in requirements.txt file pip install -r requirements.txt
+
+-cd into project
+
+-create a virtual environment ($ python3.6 -m venv virtual)
+
+-Activate Virtual Environmrnt. ($ source virtual/bin/activate)
+
+-Run The Project-: ($ python manage.py runserver)
+
+#{follow the above instructions for set up}
 
