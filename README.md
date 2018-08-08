@@ -8,9 +8,15 @@
 
 
 ## - Full Screen layout
-     
+
+##      LANDING-PAGE
+![](spec.md/Disp5.png)
+
+
+
 ##        DRIVER APP
-![](spec.md/Disp1.png)
+![](spec.md/Disp6.png)
+
 
 
 ##     PASSENGER APP
@@ -18,14 +24,20 @@
 
 
 
-## - Mid Size Full Screen layout
+## - Mid Size Screen layout
+
+##      LANDING-PAGE
+![](spec.md/Disp5.png)
+
+
 
 ##        DRIVER APP
-![](spec.md/Disp1.png)
+![](spec.md/Disp3.png)
+
 
 
 ##     PASSENGER APP
-![](spec.md/Disp2.png)
+![](spec.md/Disp4.png)
 
 
 
