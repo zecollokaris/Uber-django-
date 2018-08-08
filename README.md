@@ -9,36 +9,51 @@
 
 ## - Full Screen layout
 
-##      LANDING-PAGE
-![](spec.md/Disp5.png)
-
-
-
-##        DRIVER APP
-![](spec.md/Disp6.png)
-
-
-
-##     PASSENGER APP
-![](spec.md/Disp2.png)
-
-
-
-## - Mid Size Screen layout
 
 ##      LANDING-PAGE
-![](spec.md/Disp5.png)
+![](spec.md/Disp1.png)
 
 
 
 ##        DRIVER APP
 ![](spec.md/Disp3.png)
 
+![](spec.md/Disp5.png)
+
 
 
 ##     PASSENGER APP
+![](spec.md/Disp6.png)
+
+![](spec.md/Disp7.png)
+
+![](spec.md/Disp8.png)
+
+
+
+
+
+## - Mid Size Screen layout
+
+##      LANDING-PAGE
+![](spec.md/Disp2.png)
+
+
+
+##        DRIVER APP
 ![](spec.md/Disp4.png)
 
+
+
+##     PASSENGER APP
+![](spec.md/Disp9.png)
+
+![](spec.md/Disp10.png)
+
+
+
+##      ABOUT-PAGE
+![](spec.md/about.png)
 
 
 
