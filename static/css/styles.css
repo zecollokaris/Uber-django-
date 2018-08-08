@@ -440,7 +440,7 @@
 
                                                                             /* MAP INSIDE CONTENT SECTION */
                                                                             #map{
-                                                                                height: 500px;
+                                                                                height: 1000px;
                                                                                 width: 70%;
                                                                                 margin-top: 2%;
                                                                                 margin-left: 30%;
@@ -460,8 +460,7 @@
                                                                             }
 
                                                                             .homestartfirstrow{
-                                                                                margin-top: 10%;
-                                                                                background: url(images/city10.jpg);
+                                                                                                                                                                background: url(images/city10.jpg);
                                                                                 background-repeat: no-repeat;
                                                                                 background-attachment: fixed;
                                                                                 background-size: cover;
@@ -471,8 +470,7 @@
                                                                             }
 
                                                                             .homestartmapper{
-                                                                                margin-top: 30%;
-                                                                                
+                                                                                    
                                                                             }
 
                                                               

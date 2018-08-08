@@ -31,7 +31,7 @@ class Driver(models.Model):
     
     '''Method to filter database results'''
     def __str__(self):
-        return self.user.username 
+        return self.name
 
 #################################################################################################################################################################################
 # MODEL CAR WHICH IS THE DRIVER'S CAR INFO!
@@ -52,7 +52,7 @@ class Car(models.Model):
 
     '''Method to filter database results'''
     def __str__(self):
-        return self.user.username 
+        return self.car_brand
 
 #################################################################################################################################################################################
 # MODEL LOCATION WHICH IS USED FOR DISPLAYING LOCATIONS EITHER (PICKUP/ DESTINATIONS)!
@@ -71,6 +71,10 @@ class Location (models.Model):
     location_name = models.CharField(max_length=20)
     category = models.ForeignKey('uber.Category', on_delete=models.CASCADE)
 
+    '''Method to filter database results'''
+    def __str__(self):
+        return self.location_name
+
 #################################################################################################################################################################################
 # MODEL CATEGORY WHICH IS USED FOR ENABLING PASSENGERS KNOW IF IT IS (PICKUP/ DESTINATIONS)!
 #################################################################################################################################################################################
@@ -85,5 +89,9 @@ class Category (models.Model):
     '''
     pickup_location = models.CharField(max_length=20)
     arrival_destination = models.CharField(max_length=20)
+
+    '''Method to filter database results'''
+    def __str__(self):
+        return self.pickup_location
 
 #################################################################################################################################################################################

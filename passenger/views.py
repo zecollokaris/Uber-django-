@@ -10,7 +10,6 @@ from . import models
 
 from django.contrib.auth.models import User
 
-from django.contrib.auth import authenticate, login, logout
 
 from django.contrib.auth.decorators import login_required
 '''
@@ -42,7 +41,7 @@ def landing(request):
 '''
  This page contains passengers info eg Name, Bio and useful information about driver
 '''
-@login_required(login_url='/accounts/login/')
+@login_required(login_url="/accounts/login/")
 def pprofile(request):
     return render(request, 'passenger/profile.html')
 
@@ -90,8 +89,17 @@ def about(request):
 #################################################################################################################################################################################
 
 #Login page view function
-@login_required(login_url='/accounts/login/')
 def login(request):
     return render(request, 'registration/login.html')
 
+#################################################################################################################################################################################
+#LOGOUT PAGE VIEW FUNCTION
+#################################################################################################################################################################################
+
+#Logout page view function
+def logout(request):
+        logout(request)
+        return redirect(request, 'registration/logout.html')
+
+#################################################################################################################################################################################
 #################################################################################################################################################################################

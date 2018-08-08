@@ -2,6 +2,7 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 from django.conf.urls import url,include
+from django.contrib.auth import login
 
 '''End Of Import'''
 #---------------------------------------------------------------------#
@@ -17,6 +18,7 @@ from django.conf.urls import url,include
 
 #LOGIN Page View Function!
 def login(request):
+    login(request, user)
     return render(request, "registration/registration_form.html")
     
 #################################################################################################################################################################################

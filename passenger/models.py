@@ -32,6 +32,6 @@ class Passenger(models.Model):
     
     '''Method to filter database results'''
     def __str__(self):
-        return self.user.username 
+        return self.name
 
 #################################################################################################################################################################################
