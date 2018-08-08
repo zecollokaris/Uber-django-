@@ -25,8 +25,6 @@
 ##     PASSENGER APP
 ![](spec.md/Disp6.png)
 
-![](spec.md/Disp7.png)
-
 ![](spec.md/Disp8.png)
 
 
@@ -124,7 +122,7 @@ Collins Kariuki
 
 -PostgreSQL
 
-#Contact
+# Contact
 
 -Mobile number: (+254) 798731203
 
