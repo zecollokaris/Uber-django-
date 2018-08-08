@@ -63,6 +63,7 @@
 ## Author
 Collins Kariuki
 
+
 ## Prerequisites
 -You need to have nano text editor installed. you can find out whether you have it installed by typing nano --version in your terminal. For most linux distributions, it is installed by default. However, if you don't have it installed, you can quicky do that by typing sudo apt-get install nano in your terminal.
 
@@ -78,6 +79,7 @@ Collins Kariuki
 
 -Pillow. Installation ($ pip install pillow).
 
+
 # Setup/Installation Requirements
 
 -Internet connection
@@ -85,6 +87,9 @@ Collins Kariuki
 -webpage URL:
 
 -To get to this webpage fist you need to get to my github repository
+
+-You will need a database if you are to clone this app-: to avoid this you can visit deployed app mentioned in the Deployment section. 
+However you could clone to run it on your own. follow the below instructions
 
 -The link to my github Repository is: https://github.com/zecollokaris
 
@@ -104,6 +109,12 @@ Collins Kariuki
 
 #{follow the above instructions for set up}
 
+
+# Deployment
+
+To get deployed application, please follow-:
+
+
 #Technologies Used
 
 -HTML5
@@ -122,7 +133,8 @@ Collins Kariuki
 
 -PostgreSQL
 
-# Contact
+
+# Support and Contact
 
 -Mobile number: (+254) 798731203
 
