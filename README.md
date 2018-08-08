@@ -95,3 +95,6 @@ Collins Kariuki
 -Email Address: collo.kariss@gmail.com
 -github-username: zecollokaris
 
+## License
+The app is licensed by MIT.
+Collins Kariuki - MIT (c)2018 LICENSE
